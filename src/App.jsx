@@ -8,7 +8,15 @@ import React from 'react'
 
 // import UseEffectBasic from './components/02-useEffect/02-useEffect-basic'
 // import MultipleEffects from './components/02-useEffect/03-multiple-effects'
-import FetchData from './components/02-useEffect/04-fetch-data'
+// import FetchData from './components/02-useEffect/04-fetch-data'
+import CleanUpFunction from './components/02-useEffect/05-cleanup-function'
+
+// import MultipleRetunsBasics from './components/03-conditionalRendering/01-multiple-retuns-basics'
+// import MultipleReturnsFectchData from './components/03-conditionalRendering/02-multiple-returns-fetch-data'
+// import ShortCircuitOverview from './components/03-conditionalRendering/04-short-circuit-overview'
+// import ShortCircuitExamples from './components/03-conditionalRendering/05-short-circuit-examples'
+// import ToggleChallenge from './components/03-conditionalRendering/06-toggle-challenge'
+// import UserChallenge from './components/03-conditionalRendering/07-user-challenge'
 
 
 function App() {
@@ -20,9 +28,21 @@ function App() {
       {/* <UseStateArray /> */}
       {/* <UseStateObject /> */}
       {/* <UseStateGotcha /> */}
+
+
       {/* <UseEffectBasic /> */}
       {/* <MultipleEffects /> */}
-      <FetchData />
+      {/* <FetchData /> */}
+
+
+      {/* <MultipleRetunsBasics /> */}
+      {/* <MultipleReturnsFectchData /> */}
+      {/* <ShortCircuitOverview /> */}
+      {/* <ShortCircuitExamples /> */}
+      {/* <ToggleChallenge /> */}
+      {/* <UserChallenge /> */}
+      <CleanUpFunction />
+
     </div>
   )
 }
